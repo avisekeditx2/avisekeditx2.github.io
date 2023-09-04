@@ -225,3 +225,88 @@ footer {
 .about-foot1-text {
     font-size: small;
 }
+
+/* making the css for mobile devices */
+@media (min-width:800px) and (max-width:990px) {
+    .nav-social p {
+
+        display: none;
+
+    }
+
+    .nav-ops .report {
+        display: none;
+    }
+
+
+}
+
+@media (max-width:800px) and (min-width:769px) {
+    .nav-social p {
+
+        display: none;
+
+    }
+
+    .nav-ops .report {
+        display: none;
+    }
+
+
+}
+
+@media (max-width:769px) and (min-width:658px) {
+    .nav-social p {
+
+        display: none;
+
+    }
+
+    .nav-ops .report {
+        display: none;
+    }
+
+    .nav-ops .contact {
+        display: none;
+    }
+
+}
+
+@media (max-width:658px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .nav-social p {
+
+        display: none;
+
+    }
+
+    .nav-ops .report {
+        display: none;
+    }
+
+    .nav-ops .contact {
+        display: none;
+    }
+
+    .nav-ops {
+        font-size: 10px;
+
+    }
+
+    .nav-ops p {
+        margin-left: 10px;
+    }
+
+    .nav-social i {
+        margin-right: 5px;
+        height: 15px;
+        width: 15px;
+        font-size: 16px;
+
+    }
+
+
+}
