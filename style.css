@@ -303,6 +303,21 @@ a {
 
 @media (max-width:543px) {
 
+    .input-mail-sec {
+        display: flex;
+        flex-direction: column;
+        /* Set the flex-direction to column */
+        justify-content: center;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+
+
+
+
+
+
 
     .navbar {
         display: flex;
