@@ -310,9 +310,12 @@ a {
         justify-content: center;
         margin-top: 20px;
         align-items: center;
+
     }
 
-
+    .qus {
+        display: none;
+    }
 
 
 
@@ -367,7 +370,6 @@ a {
 
     .right-side-header p {
         font-size: 13px;
-        width: ;
 
         text-align: center;
     }
@@ -396,7 +398,7 @@ a {
     }
 
     footer {
-        height: 270px;
+        height: 290px;
         display: flex;
         justify-content: center;
     }
@@ -413,13 +415,14 @@ a {
     }
 
     input:first-child {
-        width: 200px;
+        width: 250px;
         height: auto;
         margin-top: 10px;
     }
 
     button {
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .right-side-header {
