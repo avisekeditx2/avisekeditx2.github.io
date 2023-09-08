@@ -8,12 +8,25 @@
 
 }
 
+html,
+body {
+    background-color: #000000;
+}
+
+p::selection,
+a::selection,
+h1::selection {
+    color: #E50914;
+}
+
 
 
 header {
-    background-image: url('Picsart_23-09-08_11-51-07-022.jpg');
+    background-image: url('herokrshna.jpg');
     background-size: cover;
+    background-position: center;
     height: 700px;
+    /* height: auto; */
     /* opacity: 9; */
 }
 
@@ -268,6 +281,7 @@ a {
     justify-self: center;
     text-align: center;
     margin-top: 20px;
+
 }
 
 /* media quiry */
@@ -279,6 +293,10 @@ a {
 }
 
 @media (max-width:1024px) and (min-width : 543px) {
+    header {
+        height: 400px;
+    }
+
     .header2 {
         display: flex;
         flex-direction: column-reverse;
@@ -315,6 +333,9 @@ a {
 }
 
 @media (max-width:543px) {
+    header {
+        height: 520px;
+    }
 
     .input-mail-sec {
         display: flex;
