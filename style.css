@@ -45,6 +45,10 @@ span {
     color: #F9004F;
 }
 
+nav .nav-icon {
+    display: none;
+}
+
 /* subscribe button design  */
 nav button {
     padding: 6px 20px;
@@ -402,5 +406,23 @@ footer p:last-child {
     .card p {
         scale: 0.7;
         padding: 0;
+    }
+}
+
+@media (max-width :678px) {
+    ul {
+        display: none;
+    }
+
+    nav button {
+        margin-right: 80px;
+
+    }
+
+    nav .nav-icon {
+        display: inline;
+        position: absolute;
+        right: 50px;
+
     }
 }
