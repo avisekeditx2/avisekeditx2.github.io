@@ -1,0 +1,406 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+header {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    scale: 01;
+}
+
+img {
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    right: 0px;
+}
+
+/* nav bar */
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: #F9004F;
+}
+
+/* subscribe button design  */
+nav button {
+    padding: 6px 20px;
+    background-color: #F9004F;
+    border-radius: 30px;
+    border: 0px solid #F9004F;
+    font-weight: bold;
+
+}
+
+nav button:hover {
+    scale: 1.1;
+    transition: 0.4s;
+}
+
+li a:hover {
+    color: #F9004F;
+    transition: ease-in-out .4s;
+
+}
+
+/* hero section  */
+main {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+
+}
+
+h4 {
+    color: #fcfc;
+}
+
+h1 {
+    margin: 10px 0px 10px;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+h3 {
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 1%;
+}
+
+input {
+    padding: 2% 0%;
+    border-radius: 30px;
+    border: 0px solid;
+}
+
+.input-email {
+    padding-left: 15px;
+    font-weight: 500;
+    width: 220px;
+    color: black;
+    /* border: 1px solid #F9004F; */
+    outline: none;
+}
+
+
+
+.submit-email {
+    transform: translateX(-84px);
+    background-color: #F9004F;
+    scale: 0.9;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    outline: none;
+}
+
+/* designing about  */
+.about-img {
+    height: 300px;
+    width: 250px;
+    background-color: #F9004F;
+    background-image: url(logo-bisal_files.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-right: 3%;
+}
+
+.about {
+    background-color: #191919;
+    padding: 100px 0px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text h2 {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.about p {
+    width: 550px;
+    color: #fcfc;
+
+
+}
+
+.about button {
+    margin-top: 5%;
+    padding: 6px 2px;
+    width: 90px;
+    background-color: #F9004F;
+    border-radius: 30px;
+    border: 2px solid #F9004F;
+    font-weight: bold;
+}
+
+.about button:hover {
+    background-color: transparent;
+    color: white;
+    border: #F9004F 2px solid;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* services section  */
+.services {
+    background-color: #0c0c0c;
+    padding: 10px 0px 70px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.services h3 {
+    margin: 4% 0px 5%;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+    padding: 4% 0%;
+    box-shadow: 2px 2px 20px 2px #0c0c0c;
+    border-radius: 10px;
+
+}
+
+
+.cards-list {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card p {
+    text-align: center;
+    font-size: small;
+    padding: 6%;
+    color: #fcfc;
+}
+
+.card i {
+    color: #F9004F;
+    font-size: xx-large;
+}
+
+.card button {
+    padding: 6px 20px;
+    background-color: #F9004F;
+    border-radius: 30px;
+    border: 2px solid #F9004F;
+    font-weight: bold;
+    transition: all ease-in-out 0.4s;
+
+
+}
+
+.card a {
+    position: absolute;
+    bottom: 5%;
+}
+
+.card button:hover {
+    background-color: transparent;
+    color: white;
+    border: #F9004F 2px solid;
+}
+
+.contact-me {
+    background-color: #191919;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-me p {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+.contact-me button {
+    padding: 6px 20px;
+    background-color: #F9004F;
+    border-radius: 30px;
+    border: 2px solid #F9004F;
+    font-weight: bold;
+    transition: all ease-in-out 0.4s;
+    margin-top: 2%;
+
+}
+
+.contact-me button:hover {
+    background-color: transparent;
+    color: white;
+    border: #F9004F 2px solid;
+}
+
+footer {
+    height: 400px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p:nth-child(1) {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 1%;
+}
+
+footer p:nth-child(2) {
+    margin-bottom: 1%;
+}
+
+.social {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a {
+    background-color: #F9004F;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0px 3px;
+}
+
+.social a:hover {
+    scale: 1.2;
+    transition: .4s;
+}
+
+footer p:last-child {
+    margin-top: 9px;
+    font-weight: 500;
+    font-size: 10px;
+
+}
+
+@media (max-width : 880px) and (min-width : 826px) {
+    header {
+        background-position: center;
+    }
+
+    .hero,
+    .card {
+        scale: 0.7;
+    }
+
+    .cards-list {
+        width: 100%;
+    }
+
+    .card {
+        width: 300px;
+        height: 230px;
+    }
+
+    .card a {
+        scale: 0.7;
+    }
+
+    .card p {
+        scale: 0.7;
+        padding: 0;
+    }
+}
+
+
+
+@media (max-width : 826px) {
+    header {
+        background-position: center;
+    }
+
+    .hero,
+    .card {
+        scale: 0.7;
+    }
+
+    .about-img {
+        margin: 0%;
+        display: none;
+    }
+
+    .about-text {
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-text p {
+        text-align: center;
+    }
+
+    .cards-list {
+        width: 100%;
+    }
+
+    .card {
+        width: 300px;
+        height: 230px;
+    }
+
+    .card a {
+        scale: 0.7;
+    }
+
+    .card p {
+        scale: 0.7;
+        padding: 0;
+    }
+}
